@@ -1,0 +1,95 @@
+const events = [
+    {
+      id: 1,
+      name: 'Momentum',
+      place: 'PLACE NAME',
+      thumbnail: '/static/media/gallery-grey.b5e3d029.jpg',
+      description: 'SHORT DESCRIPTION',
+      type: 'MUSEUM/GALLERY',
+      address: 'MAPS POINT ADDRESS',
+      country: 'COUNTRY',
+      state: 'STATE/TERRITORY',
+      artist: 'ARTIST',
+      virsturl: 'https://www.ngv.vic.gov.au/virtual-tours/kaws/'
+    },
+    {
+      id: 2,
+      name: 'The Great War of Arts',
+      place: 'PLACE NAME',
+      thumbnail: '/static/media/gallery-grey.b5e3d029.jpg',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Orci a scelerisque purus semper eget duis at. Lectus nulla at volutpat diam ut venenatis tellus in. Ac ut consequat semper viverra. Praesent tristique magna sit amet purus. Amet cursus sit amet dictum sit amet justo. ',
+      type: 'MUSEUM/GALLERY',
+      address: 'MAPS POINT ADDRESS',
+      country: 'COUNTRY',
+      state: 'STATE/TERRITORY',
+      artist: 'Jean Baskiat',
+      virsturl: 'https://www.ngv.vic.gov.au/virtual-tours/kaws/'
+    },
+    {
+      id: 3,
+      name: 'NAME',
+      place: 'PLACE NAME',
+      thumbnail: '/static/media/gallery-grey.b5e3d029.jpg',
+      description: 'SHORT DESCRIPTION',
+      type: 'MUSEUM/GALLERY',
+      address: 'MAPS POINT ADDRESS',
+      country: 'COUNTRY',
+      state: 'STATE/TERRITORY',
+      artist: 'ARTIST',
+      virsturl: 'https://www.ngv.vic.gov.au/virtual-tours/kaws/'
+    },
+    {
+      id: 4,
+      name: 'NAME EVENT',
+      place: 'PLACE NAME',
+      thumbnail: '/static/media/gallery-grey.b5e3d029.jpg',
+      description: 'SHORT DESCRIPTION',
+      type: 'MUSEUM/GALLERY',
+      address: 'MAPS POINT ADDRESS',
+      country: 'COUNTRY',
+      state: 'STATE/TERRITORY',
+      artist: 'ARTIST',
+      virsturl: 'https://www.ngv.vic.gov.au/virtual-tours/kaws/'
+    },
+    {
+      id: 5,
+      name: 'NAME EVENT',
+      place: 'PLACE NAME',
+      thumbnail: '/static/media/gallery-grey.b5e3d029.jpg',
+      description: 'SHORT DESCRIPTION',
+      type: 'MUSEUM/GALLERY',
+      address: 'MAPS POINT ADDRESS',
+      country: 'COUNTRY',
+      state: 'STATE/TERRITORY',
+      artist: 'ARTIST',
+      virsturl: 'https://www.ngv.vic.gov.au/virtual-tours/kaws/'
+    },
+    {
+      id: 6,
+      name: 'NAME EVENT',
+      place: 'PLACE NAME',
+      thumbnail: '/static/media/gallery-grey.b5e3d029.jpg',
+      description: 'SHORT DESCRIPTION',
+      type: 'MUSEUM/GALLERY',
+      address: 'MAPS POINT ADDRESS',
+      country: 'COUNTRY',
+      state: 'STATE/TERRITORY',
+      artist: 'ARTIST',
+      virsturl: 'https://www.ngv.vic.gov.au/virtual-tours/kaws/'
+    },
+    {
+      id: 7,
+      name: 'NAME EVENT',
+      place: 'PLACE NAME',
+      thumbnail: '/static/media/gallery-grey.b5e3d029.jpg',
+      description: 'SHORT DESCRIPTION',
+      type: 'MUSEUM/GALLERY',
+      address: 'MAPS POINT ADDRESS',
+      country: 'COUNTRY',
+      state: 'STATE/TERRITORY',
+      artist: 'ARTIST',
+      virsturl: 'https://www.ngv.vic.gov.au/virtual-tours/kaws/'
+    },
+  ];
+
+export default events;
