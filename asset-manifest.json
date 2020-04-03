@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/virsit/static/css/main.ccff19e8.chunk.css",
+    "main.js": "/virsit/static/js/main.5f253017.chunk.js",
+    "main.js.map": "/virsit/static/js/main.5f253017.chunk.js.map",
+    "runtime-main.js": "/virsit/static/js/runtime-main.edd84b9c.js",
+    "runtime-main.js.map": "/virsit/static/js/runtime-main.edd84b9c.js.map",
+    "static/js/2.0189c072.chunk.js": "/virsit/static/js/2.0189c072.chunk.js",
+    "static/js/2.0189c072.chunk.js.map": "/virsit/static/js/2.0189c072.chunk.js.map",
+    "index.html": "/virsit/index.html",
+    "precache-manifest.2a32023f6138637ddf5252033d42927f.js": "/virsit/precache-manifest.2a32023f6138637ddf5252033d42927f.js",
+    "service-worker.js": "/virsit/service-worker.js",
+    "static/css/main.ccff19e8.chunk.css.map": "/virsit/static/css/main.ccff19e8.chunk.css.map",
+    "static/js/2.0189c072.chunk.js.LICENSE.txt": "/virsit/static/js/2.0189c072.chunk.js.LICENSE.txt",
+    "static/media/Header.css": "/virsit/static/media/gallery-grey2.5543b63a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.edd84b9c.js",
+    "static/js/2.0189c072.chunk.js",
+    "static/css/main.ccff19e8.chunk.css",
+    "static/js/main.5f253017.chunk.js"
+  ]
+}
