@@ -1,0 +1,26 @@
+.viewGrid{
+    
+    height: fit-content;
+}
+
+.viewList{
+    margin-top: 2em;
+    margin-left: 2em;
+    padding-top: 2em;
+    overflow: hidden;
+    height:auto !important;
+    min-height: fit-content;
+}
+
+.gridEvent{
+    flex-wrap: nowrap;
+    transform: translateZ(0);
+    min-height: 60vh;
+    vertical-align: middle;
+    text-align: center;
+    justify-items: center;
+}
+
+.listEvent{
+    min-height: 60vh;
+}

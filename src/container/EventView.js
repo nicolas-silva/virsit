@@ -1,38 +1,24 @@
 import React from "react";
-import { makeStyles } from '@material-ui/core/styles';
 import GridList from "@material-ui/core/GridList";
 import Grid from "@material-ui/core/Grid";
-import Event from "../component/CardEventNode";
 import List from '@material-ui/core/List';
+import GridEventItem from "../component/CardEventNode";
 import ListEventItem from '../component/ListEventItem';
+import './EventView.css';
 
-const useStyles = makeStyles((theme) => ({
-  root: {
-    flexGrow: 1,
-    maxWidth: 752,
-  },
-  paper: {
-    backgroundColor: theme.palette.background.paper,
-  },
-  title: {
-    margin: theme.spacing(4, 0, 2),
-  },
-}));
 
 
 const EventView = ({spots, view}) => {
-  const classes = useStyles();
 
   if (view === "grid")
   {
     return (
-      <div>
-      <GridList className="gridList" direction="row" justify="center" cols={1}>
-          <Grid className="EventView" container direction="row" justify="center">
+      <GridList className="viewGrid" direction="column" justify="center" cols={1} >
+          <Grid className="gridEvent" container direction="column">
           {
             spots.map((place) => {
               return(
-              <Event 
+              <GridEventItem 
                 key={place.id}
                 name={place.name}
                 place={place.place}
@@ -47,15 +33,13 @@ const EventView = ({spots, view}) => {
           }
           </Grid>
         </GridList>
-        </div>
     );
   }
   else if(view === "list")
   {
     return(
-      <div className={classes.paper}>
-        <GridList direction="row" justify="center" cols={1}>
-        <Grid className="EventView" container direction="row" justify="space-around">
+        <GridList className="viewList" direction="row" justify="center" cols={1} >
+          <Grid className="listEvent" container direction="row" justify="center" alignContent="space-between">
           <List dense={true} className="ListEventItem">
           {
             spots.map((place, i) => {
@@ -72,9 +56,8 @@ const EventView = ({spots, view}) => {
             })
           }
           </List>
-        </Grid>
+          </Grid>
         </GridList>
-      </div>
     );
   }
 }

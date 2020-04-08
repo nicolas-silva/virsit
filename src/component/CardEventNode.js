@@ -29,10 +29,16 @@ const useStyles = makeStyles({
   }
 });
 
+// function handleClick(url){
+//   window.open(url, "_blank");
+// }
+
 export default function CardEventNode(props) {
   const classes = useStyles();
   const about = props.description.substring(0, 80) + "...";
   const titleEvent = props.name.concat(" - ", props.artist);
+  // const virsturl = props.virsturl;
+  
   if (props.view === "grid")
   {
     return (
@@ -41,8 +47,8 @@ export default function CardEventNode(props) {
         <CardActionArea className={classes.content}>
           <CardMedia
             className={classes.media}
-            image={props.thumbnail}
-            // image={require('./gallery-grey.jpg')}
+            image={require('../img/' + props.thumbnail)}
+            // image={require(String('../img/' + 'nasa-logo.png'))}
             title={props.name}
           />
           <CardContent >

@@ -28,8 +28,17 @@ class App extends Component {
     this.setState({ searchfield: event.target.value });
   };
 
+  filterPlacesByCategory = event => {
+    console.log("filtered");
+  }
+
   onViewChange(e){
-    this.setState({ view: e });
+    if (e !== 'filter') {
+      this.setState({ view: e });
+    }
+    else{
+      this.filterPlacesByCategory();
+    }
   }
 
   render() {
@@ -45,18 +54,18 @@ class App extends Component {
       return (
         <div className="App">
           <Header />
+          {/* <EventView spots={filteredPlaces} view="grid" /> */}
+          <EventView spots={filteredPlaces} view={this.state.view} />
           <Grid
-                className="SpaceSection root"
                 container
                 direction="row"
                 justify="center"
                 alignItems="center"
-            >
+                className="footer"
+                >
             <Search onChange={this.onSearchChange.bind(this)} />
             <ViewMenu view={this.state.view} onChange={this.onViewChange.bind(this)}/>
-          {/* <EventView spots={filteredPlaces} view="grid" /> */}
           </Grid>
-          <EventView spots={filteredPlaces} view={this.state.view} />
         </div>
       );
     }

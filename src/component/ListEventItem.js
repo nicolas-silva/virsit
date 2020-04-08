@@ -24,7 +24,6 @@ import './ListEventItem.css';
     }
 
     handleClick(){
-      console.log("Clicked");
       window.open(this.virsturl, "_blank");
     }
 
@@ -34,7 +33,7 @@ import './ListEventItem.css';
               <ListItemAvatar>
                 <Avatar 
                     alt={this.titleEvent}
-                    src={this.thumbnail} >
+                    src={require('../img/' + this.thumbnail)} >
                     {/* src={require('./gallery-grey.jpg')} > */}
                 </Avatar>
               </ListItemAvatar>
