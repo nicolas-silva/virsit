@@ -1,23 +1,41 @@
 {
   "files": {
-    "main.css": "/virsit/static/css/main.ccff19e8.chunk.css",
-    "main.js": "/virsit/static/js/main.5f253017.chunk.js",
-    "main.js.map": "/virsit/static/js/main.5f253017.chunk.js.map",
+    "main.css": "/virsit/static/css/main.b16cce5d.chunk.css",
+    "main.js": "/virsit/static/js/main.bddea14f.chunk.js",
+    "main.js.map": "/virsit/static/js/main.bddea14f.chunk.js.map",
     "runtime-main.js": "/virsit/static/js/runtime-main.edd84b9c.js",
     "runtime-main.js.map": "/virsit/static/js/runtime-main.edd84b9c.js.map",
-    "static/js/2.0189c072.chunk.js": "/virsit/static/js/2.0189c072.chunk.js",
-    "static/js/2.0189c072.chunk.js.map": "/virsit/static/js/2.0189c072.chunk.js.map",
+    "static/js/2.1fdf8053.chunk.js": "/virsit/static/js/2.1fdf8053.chunk.js",
+    "static/js/2.1fdf8053.chunk.js.map": "/virsit/static/js/2.1fdf8053.chunk.js.map",
     "index.html": "/virsit/index.html",
-    "precache-manifest.2a32023f6138637ddf5252033d42927f.js": "/virsit/precache-manifest.2a32023f6138637ddf5252033d42927f.js",
+    "precache-manifest.522b6b0b6eadf7aead8e5332c0708212.js": "/virsit/precache-manifest.522b6b0b6eadf7aead8e5332c0708212.js",
     "service-worker.js": "/virsit/service-worker.js",
-    "static/css/main.ccff19e8.chunk.css.map": "/virsit/static/css/main.ccff19e8.chunk.css.map",
-    "static/js/2.0189c072.chunk.js.LICENSE.txt": "/virsit/static/js/2.0189c072.chunk.js.LICENSE.txt",
-    "static/media/Header.css": "/virsit/static/media/gallery-grey2.5543b63a.jpg"
+    "static/css/main.b16cce5d.chunk.css.map": "/virsit/static/css/main.b16cce5d.chunk.css.map",
+    "static/js/2.1fdf8053.chunk.js.LICENSE.txt": "/virsit/static/js/2.1fdf8053.chunk.js.LICENSE.txt",
+    "static/media/KAWS-ngv.jpg": "/virsit/static/media/KAWS-ngv.4e65bc2b.jpg",
+    "static/media/MMCA-Gwacheon.jpg": "/virsit/static/media/MMCA-Gwacheon.4fb62ca6.jpg",
+    "static/media/Rijksmuseum.jpg": "/virsit/static/media/Rijksmuseum.c4d6e167.jpg",
+    "static/media/crossing-lines.jpg": "/virsit/static/media/crossing-lines.586db8ee.jpg",
+    "static/media/gallery-grey2.jpg": "/virsit/static/media/gallery-grey2.5543b63a.jpg",
+    "static/media/georgia-aquarium.jpg": "/virsit/static/media/georgia-aquarium.ddf9a313.jpg",
+    "static/media/hicks-ngv.jpg": "/virsit/static/media/hicks-ngv.31d9f10a.jpg",
+    "static/media/hotel-legoland.jpg": "/virsit/static/media/hotel-legoland.1d5b26c1.jpg",
+    "static/media/louvre-exposition-petite-galerie-140-87-px.jpg": "/virsit/static/media/louvre-exposition-petite-galerie-140-87-px.1a9cc643.jpg",
+    "static/media/louvre-grand-sphinx-tanis-detail.jpg": "/virsit/static/media/louvre-grand-sphinx-tanis-detail.2e5729ac.jpg",
+    "static/media/masp-sp.jpg": "/virsit/static/media/masp-sp.e826340f.jpg",
+    "static/media/musee-d-orsay.jpg": "/virsit/static/media/musee-d-orsay.c376aa41.jpg",
+    "static/media/panda-cam.jpg": "/virsit/static/media/panda-cam.8ea2a66f.jpg",
+    "static/media/polar-bear-cubs.png": "/virsit/static/media/polar-bear-cubs.9ae4a12e.png",
+    "static/media/raphaels-room.1280.1280.png": "/virsit/static/media/raphaels-room.1280.1280.b4972cf5.png",
+    "static/media/sea-world.jpg": "/virsit/static/media/sea-world.f29ed567.jpg",
+    "static/media/sistineChapel.1280.1280.png": "/virsit/static/media/sistineChapel.1280.1280.4e3e0229.png",
+    "static/media/solomon-guggenheim-museum.jpg": "/virsit/static/media/solomon-guggenheim-museum.db7a5a1d.jpg",
+    "static/media/uffizi-gallery.jpg": "/virsit/static/media/uffizi-gallery.4399b1a3.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.edd84b9c.js",
-    "static/js/2.0189c072.chunk.js",
-    "static/css/main.ccff19e8.chunk.css",
-    "static/js/main.5f253017.chunk.js"
+    "static/js/2.1fdf8053.chunk.js",
+    "static/css/main.b16cce5d.chunk.css",
+    "static/js/main.bddea14f.chunk.js"
   ]
 }
