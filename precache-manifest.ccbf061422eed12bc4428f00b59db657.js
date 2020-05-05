@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "41de1614b121e10768f1dae764116239",
+    "revision": "202a7b3b7ccb9b233003d2687239412a",
     "url": "/virsit/index.html"
   },
   {
-    "revision": "a397c35e78df1ac191c3",
-    "url": "/virsit/static/css/main.36613d0d.chunk.css"
+    "revision": "ed0a22432772d2727a41",
+    "url": "/virsit/static/css/main.f199a7c4.chunk.css"
   },
   {
-    "revision": "c72b48627111161943c3",
-    "url": "/virsit/static/js/2.068ff81b.chunk.js"
+    "revision": "072b7f30e5e385f1ceb7",
+    "url": "/virsit/static/js/2.0295f80a.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/virsit/static/js/2.068ff81b.chunk.js.LICENSE.txt"
+    "url": "/virsit/static/js/2.0295f80a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a397c35e78df1ac191c3",
-    "url": "/virsit/static/js/main.c0a84015.chunk.js"
+    "revision": "ed0a22432772d2727a41",
+    "url": "/virsit/static/js/main.efd4bea3.chunk.js"
   },
   {
     "revision": "d51963286e6001bcf93f",
