@@ -1,74 +1,69 @@
 import React, { Component } from "react";
-import Grid from '@material-ui/core/Grid';
-import Header from "./component/Header";
-import ViewMenu from "./component/ViewMenu";
-import Search from "./component/Search";
+import { createStore } from "redux";
+import reducer from "./reducers/reducer.js";
+import { Provider } from "react-redux";
+import Grid from "@material-ui/core/Grid";
+import Header from "./components/Header";
+import ViewMenu from "./components/ViewMenu";
+import Search from "./components/Search";
 import EventView from "./container/EventView";
-import events from "./spots";
-
 import "./App.css";
 
+let store = createStore(reducer);
 
 class App extends Component {
   constructor() {
     super();
-    this.state = 
-    {
+    this.state = {
       spots: [],
       searchfield: "",
-      view: "list"
+      view: "list",
     };
   }
 
   componentDidMount() {
-    this.setState({ spots: events });
+    this.setState({ spots: store.getState().places });
   }
 
-  onSearchChange = event => {
+  onSearchChange = (event) => {
     this.setState({ searchfield: event.target.value });
   };
 
-  filterPlacesByCategory = event => {
+  filterPlacesByCategory = (event) => {
     console.log("filtered");
-  }
+  };
 
-  onViewChange(e){
-    if (e !== 'filter') {
+  onViewChange(e) {
+    if (e !== "filter") {
       this.setState({ view: e });
-    }
-    else{
+    } else {
       this.filterPlacesByCategory();
     }
   }
 
   render() {
-    const filteredPlaces = 
-      this.state.spots.filter(spot => 
-        spot.name.toLowerCase().includes(this.state.searchfield.toLowerCase())  ||
-        spot.description.toLowerCase().includes(this.state.searchfield.toLowerCase()) 
-      );
-
-    if (this.state.spots.length === 0) {
-      return <h2>Loading...</h2>;
-    } else {
-      return (
+    return (
+      <Provider store={store}>
         <div className="App">
           <Header />
           {/* <EventView spots={filteredPlaces} view="grid" /> */}
-          <EventView spots={filteredPlaces} view={this.state.view} />
+          <EventView/>
           <Grid
-                container
-                direction="row"
-                justify="center"
-                alignItems="center"
-                className="footer"
-                >
+            container
+            direction="row"
+            justify="center"
+            alignItems="center"
+            className="footer"
+          >
             <Search onChange={this.onSearchChange.bind(this)} />
-            <ViewMenu view={this.state.view} onChange={this.onViewChange.bind(this)}/>
+            <ViewMenu
+              view={this.state.view}
+              onChange={this.onViewChange.bind(this)}
+            />
           </Grid>
         </div>
-      );
-    }
+      </Provider>
+    );
   }
 }
 

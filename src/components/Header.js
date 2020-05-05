@@ -5,7 +5,7 @@ import "./Header.css";
 var TxtType = function(el, toRotate, period) {
   this.toRotate = toRotate;
   this.el = el;
-  this.loopNum = 0;
+  this.loopNum = 1;
   this.period = parseInt(period, 1) || 1000;
   this.txt = '';
   this.tick();
@@ -70,13 +70,13 @@ function Header(props) {
           Vi<span className="TheR">rs</span>it
         </h1>
         <p className="typewrite" data-period="1000" data-type='[ "Virsit is the place",
-                                                             "to easily find a Virtual Tour", 
+                                                             "To easily find a Virtual Tour", 
                                                              "To Museums or Art Galleries...", 
                                                              "Zoos or Aquariums...",
-                                                             "Places you cant go at the moment,",
+                                                             "Places you can not go at the moment,",
                                                              "Or you are planning to visit soon.",
                                                              "Anyway,",
-                                                             "Find below a nice place to visit today." ]'>
+                                                             "Find below a nice place to visit now!" ]'>
         <span className="wrap"></span>
         </p>
       </header>

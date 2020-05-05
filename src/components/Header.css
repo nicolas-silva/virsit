@@ -1,7 +1,7 @@
 .App-header {
     /* background-color: #282c34; */
     background-image: url("../img/gallery-grey2.jpg");
-    min-height: 25vh;
+    min-height: 20vh;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -10,7 +10,7 @@
     justify-content: center;
     font-size: calc(10px + 2vmin);
     color: white;
-    margin-bottom: 0.5em;
+    margin-bottom: 0;
   }
   
   .App-header h1{

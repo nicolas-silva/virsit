@@ -1,0 +1,11 @@
+.Title{
+    min-height: 2em;
+    text-align: center;
+    vertical-align: middle;
+}
+.Text{
+    text-align: justify;
+}
+.Topic{
+    font-weight: bolder;
+}
